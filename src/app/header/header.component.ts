@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  logImg = {
+      src: "https://cdn.jsdelivr.net/gh/thiago-glauco/javascriptforgood@master/src/app/images/logo.png",
+      alt: "Logo JavaScript for Good"
+    }
   constructor() { }
 
   ngOnInit() {
