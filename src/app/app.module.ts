@@ -11,7 +11,8 @@ import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   imports:      [ 
-    BrowserModule, BrowserAnimationsModule,
+    BrowserModule,
+    BrowserAnimationsModule,
     FormsModule,
     MaterialModule
   ],
