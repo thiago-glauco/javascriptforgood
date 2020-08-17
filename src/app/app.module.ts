@@ -8,6 +8,7 @@ import { MaterialModule } from './material/material.module';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { HeaderComponent } from './header/header.component';
+import { TopBigNavigatorComponent } from './top-big-navigator/top-big-navigator.component';
 
 @NgModule({
   imports:      [ 
@@ -16,7 +17,7 @@ import { HeaderComponent } from './header/header.component';
     FormsModule,
     MaterialModule
   ],
-  declarations: [ AppComponent, HelloComponent, HeaderComponent ],
+  declarations: [ AppComponent, HelloComponent, HeaderComponent, TopBigNavigatorComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
