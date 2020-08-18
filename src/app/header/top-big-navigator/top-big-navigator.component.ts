@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavigationRoutes } from '../nav-interface';
 
 @Component({
   selector: 'app-top-big-navigator',
@@ -7,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TopBigNavigatorComponent implements OnInit {
 
+  navigationRoutes = NavigationRoutes;
   constructor() { }
 
   ngOnInit() {
