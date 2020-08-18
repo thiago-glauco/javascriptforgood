@@ -8,7 +8,7 @@ import { MaterialModule } from './material/material.module';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { HeaderComponent } from './header/header.component';
-import { TopBigNavigatorComponent } from './top-big-navigator/top-big-navigator.component';
+import { TopBigNavigatorComponent } from './header/top-big-navigator/top-big-navigator.component';
 
 @NgModule({
   imports:      [ 
