@@ -1,6 +1,6 @@
 <div fxHide.lt-sm="true" fxLayout="row" fxLayoutAlign="end center" fxLayoutGap="5px">
   <span fxFlex="80%"></span>
   <nav *ngFor="let navigationButton of navigationRoutes">
-    <a fxFlex href="#" mat-raised-button><mat-icon>{{navigationButton.icon}}</mat-icon>{{navigationButton.name}}</a>
+    <a fxFlex href="#" color="accent" mat-raised-button><mat-icon>{{navigationButton.icon}}</mat-icon>{{navigationButton.name}}</a>
   </nav>
 </div>
